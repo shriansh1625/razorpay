@@ -1,0 +1,11 @@
+[project]
+name = "northwind-autopay-recovery"
+version = "1.0.0"
+description = "Voice agent that recovers failed autopay only when the mandate, consent, and failure code allow it."
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
